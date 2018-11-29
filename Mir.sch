@@ -1031,4 +1031,36 @@ F 3 "" H 2100 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2100 6700
+Text GLabel 4250 3800 2    50   Input ~ 0
+COL0
+Text GLabel 4250 3900 2    50   Input ~ 0
+COL1
+Text GLabel 4250 2600 2    50   Input ~ 0
+COL2
+Text GLabel 4250 2500 2    50   Input ~ 0
+COL3
+Text GLabel 4250 2400 2    50   Input ~ 0
+COL4
+Text GLabel 4250 2300 2    50   Input ~ 0
+COL5
+Text GLabel 4250 2200 2    50   Input ~ 0
+COL6
+Text GLabel 4250 2100 2    50   Input ~ 0
+COL7
+Text GLabel 4250 2000 2    50   Input ~ 0
+COL8
+Text GLabel 4250 1900 2    50   Input ~ 0
+COL9
+Text GLabel 4250 3400 2    50   Input ~ 0
+COL10
+Text GLabel 4250 3300 2    50   Input ~ 0
+COL11
+Text GLabel 4250 3200 2    50   Input ~ 0
+ROW3
+Text GLabel 4250 3100 2    50   Input ~ 0
+ROW2
+Text GLabel 4250 3000 2    50   Input ~ 0
+ROW1
+Text GLabel 4250 2900 2    50   Input ~ 0
+ROW0
 $EndSCHEMATC
