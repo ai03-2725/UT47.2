@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 22)
+    (drawings 26)
     (tracks 1199)
     (zones 0)
     (modules 131)
@@ -6093,6 +6093,10 @@
       (xy -21.819523 17.471095)) (layer F.SilkS) (width 0.01))
   )
 
+  (gr_circle (center 48.387 52.451) (end 48.641 52.451) (layer B.SilkS) (width 0.2))
+  (gr_circle (center 114.935 52.451) (end 115.189 52.451) (layer B.SilkS) (width 0.2))
+  (gr_circle (center 181.737 52.451) (end 181.991 52.451) (layer B.SilkS) (width 0.2))
+  (gr_circle (center 239.649 52.451) (end 239.903 52.451) (layer B.SilkS) (width 0.2))
   (gr_text "UT47.2 PCB by ai03 Rev 1.0" (at 244.475 105.56875) (layer B.Mask)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
