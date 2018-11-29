@@ -1,4 +1,4 @@
-update=10/17/2017 7:49:37 PM
+update=11/28/2018 5:00:38 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -28,38 +28,3 @@ version=1
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=transistors
-LibName4=conn
-LibName5=linear
-LibName6=regul
-LibName7=74xx
-LibName8=cmos4000
-LibName9=adc-dac
-LibName10=memory
-LibName11=xilinx
-LibName12=microcontrollers
-LibName13=dsp
-LibName14=microchip
-LibName15=analog_switches
-LibName16=motorola
-LibName17=texas
-LibName18=intel
-LibName19=audio
-LibName20=interface
-LibName21=digital-audio
-LibName22=philips
-LibName23=display
-LibName24=cypress
-LibName25=siliconi
-LibName26=opto
-LibName27=atmel
-LibName28=contrib
-LibName29=valves
-LibName30=MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrids
-LibName31=Molex-0548190589.pretty/Schematic Library/Molex-0548190589
-LibName32=WS2812B.pretty/Schematic-Symbol/ws2812b
-LibName33=kicad_lib_tmk/keyboard_parts
-LibName34=kicad_lib_tmk/mkl27z256vfm4

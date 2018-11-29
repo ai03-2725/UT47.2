@@ -1,6 +1,40 @@
-EESchema Schematic File Version 4
-LIBS:Mir-cache
-EELAYER 26 0
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MX_Alps_Hybrids
+LIBS:Molex-0548190589
+LIBS:ws2812b
+LIBS:keyboard_parts
+LIBS:mkl27z256vfm4
+LIBS:Voyager-cache
+EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -19,7 +53,7 @@ Voyager Keyboard - Matrix
 Text Notes 12950 11075 0    60   ~ 0
 2017-10-16
 $Comp
-L MX_Alps_Hybrids:MX-1U K_ESC1
+L MX-1U K_ESC1
 U 1 1 59E86381
 P 2875 2625
 F 0 "K_ESC1" H 2875 2750 60  0000 C CNN
@@ -30,7 +64,7 @@ F 3 "" H 2850 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_ESC1
+L D_Small D_ESC1
 U 1 1 59E86545
 P 2850 3100
 F 0 "D_ESC1" H 2800 3180 50  0000 L CNN
@@ -41,7 +75,7 @@ F 3 "" V 2850 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_ESC1
+L R_Small R_ESC1
 U 1 1 59E8656A
 P 2975 2850
 F 0 "R_ESC1" V 2900 2725 50  0000 L CNN
@@ -52,7 +86,7 @@ F 3 "" H 2975 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_#1
+L MX-1U K_#1
 U 1 1 59E8D178
 P 3325 2625
 F 0 "K_#1" H 3325 2750 60  0000 C CNN
@@ -63,7 +97,7 @@ F 3 "" H 3300 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_#1
+L D_Small D_#1
 U 1 1 59E8D17E
 P 3300 3100
 F 0 "D_#1" H 3250 3180 50  0000 L CNN
@@ -74,7 +108,7 @@ F 3 "" V 3300 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_#1
+L R_Small R_#1
 U 1 1 59E8D184
 P 3425 2850
 F 0 "R_#1" V 3350 2725 50  0000 L CNN
@@ -85,7 +119,7 @@ F 3 "" H 3425 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_#2
+L MX-1U K_#2
 U 1 1 59E8D902
 P 3775 2625
 F 0 "K_#2" H 3775 2750 60  0000 C CNN
@@ -96,7 +130,7 @@ F 3 "" H 3750 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_#2
+L D_Small D_#2
 U 1 1 59E8D908
 P 3750 3100
 F 0 "D_#2" H 3700 3180 50  0000 L CNN
@@ -107,7 +141,7 @@ F 3 "" V 3750 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_#2
+L R_Small R_#2
 U 1 1 59E8D90E
 P 3875 2850
 F 0 "R_#2" V 3800 2725 50  0000 L CNN
@@ -118,7 +152,7 @@ F 3 "" H 3875 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_#3
+L MX-1U K_#3
 U 1 1 59E8D916
 P 4225 2625
 F 0 "K_#3" H 4225 2750 60  0000 C CNN
@@ -129,7 +163,7 @@ F 3 "" H 4200 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_#3
+L D_Small D_#3
 U 1 1 59E8D91C
 P 4200 3100
 F 0 "D_#3" H 4150 3180 50  0000 L CNN
@@ -140,7 +174,7 @@ F 3 "" V 4200 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_#3
+L R_Small R_#3
 U 1 1 59E8D922
 P 4325 2850
 F 0 "R_#3" V 4250 2725 50  0000 L CNN
@@ -151,7 +185,7 @@ F 3 "" H 4325 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_#4
+L MX-1U K_#4
 U 1 1 59E8E360
 P 4675 2625
 F 0 "K_#4" H 4675 2750 60  0000 C CNN
@@ -162,7 +196,7 @@ F 3 "" H 4650 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_#4
+L D_Small D_#4
 U 1 1 59E8E366
 P 4650 3100
 F 0 "D_#4" H 4600 3180 50  0000 L CNN
@@ -173,7 +207,7 @@ F 3 "" V 4650 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_#4
+L R_Small R_#4
 U 1 1 59E8E36C
 P 4775 2850
 F 0 "R_#4" V 4700 2725 50  0000 L CNN
@@ -184,7 +218,7 @@ F 3 "" H 4775 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_#5
+L MX-1U K_#5
 U 1 1 59E8E374
 P 5125 2625
 F 0 "K_#5" H 5125 2750 60  0000 C CNN
@@ -195,7 +229,7 @@ F 3 "" H 5100 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_#5
+L D_Small D_#5
 U 1 1 59E8E37A
 P 5100 3100
 F 0 "D_#5" H 5050 3180 50  0000 L CNN
@@ -206,7 +240,7 @@ F 3 "" V 5100 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_#5
+L R_Small R_#5
 U 1 1 59E8E380
 P 5225 2850
 F 0 "R_#5" V 5150 2725 50  0000 L CNN
@@ -217,7 +251,7 @@ F 3 "" H 5225 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_#6
+L MX-1U K_#6
 U 1 1 59E8E388
 P 5575 2625
 F 0 "K_#6" H 5575 2750 60  0000 C CNN
@@ -228,7 +262,7 @@ F 3 "" H 5550 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_#6
+L D_Small D_#6
 U 1 1 59E8E38E
 P 5550 3100
 F 0 "D_#6" H 5500 3180 50  0000 L CNN
@@ -239,7 +273,7 @@ F 3 "" V 5550 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_#6
+L R_Small R_#6
 U 1 1 59E8E394
 P 5675 2850
 F 0 "R_#6" V 5600 2725 50  0000 L CNN
@@ -250,7 +284,7 @@ F 3 "" H 5675 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_#7
+L MX-1U K_#7
 U 1 1 59E8E39C
 P 6025 2625
 F 0 "K_#7" H 6025 2750 60  0000 C CNN
@@ -261,7 +295,7 @@ F 3 "" H 6000 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_#7
+L D_Small D_#7
 U 1 1 59E8E3A2
 P 6000 3100
 F 0 "D_#7" H 5950 3180 50  0000 L CNN
@@ -272,7 +306,7 @@ F 3 "" V 6000 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_#7
+L R_Small R_#7
 U 1 1 59E8E3A8
 P 6125 2850
 F 0 "R_#7" V 6050 2725 50  0000 L CNN
@@ -283,7 +317,7 @@ F 3 "" H 6125 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_#8
+L MX-1U K_#8
 U 1 1 59E8EB30
 P 6475 2625
 F 0 "K_#8" H 6475 2750 60  0000 C CNN
@@ -294,7 +328,7 @@ F 3 "" H 6450 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_#8
+L D_Small D_#8
 U 1 1 59E8EB36
 P 6450 3100
 F 0 "D_#8" H 6400 3180 50  0000 L CNN
@@ -305,7 +339,7 @@ F 3 "" V 6450 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_#8
+L R_Small R_#8
 U 1 1 59E8EB3C
 P 6575 2850
 F 0 "R_#8" V 6500 2725 50  0000 L CNN
@@ -316,7 +350,7 @@ F 3 "" H 6575 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_#9
+L MX-1U K_#9
 U 1 1 59E8EB44
 P 6925 2625
 F 0 "K_#9" H 6925 2750 60  0000 C CNN
@@ -327,7 +361,7 @@ F 3 "" H 6900 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_#9
+L D_Small D_#9
 U 1 1 59E8EB4A
 P 6900 3100
 F 0 "D_#9" H 6850 3180 50  0000 L CNN
@@ -338,7 +372,7 @@ F 3 "" V 6900 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_#9
+L R_Small R_#9
 U 1 1 59E8EB50
 P 7025 2850
 F 0 "R_#9" V 6950 2725 50  0000 L CNN
@@ -349,7 +383,7 @@ F 3 "" H 7025 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_#0_1
+L MX-1U K_#0_1
 U 1 1 59E8EB58
 P 7375 2625
 F 0 "K_#0_1" H 7375 2750 60  0000 C CNN
@@ -360,7 +394,7 @@ F 3 "" H 7350 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_#0_1
+L D_Small D_#0_1
 U 1 1 59E8EB5E
 P 7350 3100
 F 0 "D_#0_1" H 7300 3180 50  0000 L CNN
@@ -371,7 +405,7 @@ F 3 "" V 7350 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_#0_1
+L R_Small R_#0_1
 U 1 1 59E8EB64
 P 7475 2850
 F 0 "R_#0_1" V 7400 2725 50  0000 L CNN
@@ -382,7 +416,7 @@ F 3 "" H 7475 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_-1
+L MX-1U K_-1
 U 1 1 59E8EB6C
 P 7825 2625
 F 0 "K_-1" H 7825 2750 60  0000 C CNN
@@ -393,7 +427,7 @@ F 3 "" H 7800 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_-1
+L D_Small D_-1
 U 1 1 59E8EB72
 P 7800 3100
 F 0 "D_-1" H 7750 3180 50  0000 L CNN
@@ -404,7 +438,7 @@ F 3 "" V 7800 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_-1
+L R_Small R_-1
 U 1 1 59E8EB78
 P 7925 2850
 F 0 "R_-1" V 7850 2725 50  0000 L CNN
@@ -415,7 +449,7 @@ F 3 "" H 7925 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_=1
+L MX-1U K_=1
 U 1 1 59E8EB80
 P 8275 2625
 F 0 "K_=1" H 8275 2750 60  0000 C CNN
@@ -426,7 +460,7 @@ F 3 "" H 8250 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_=1
+L D_Small D_=1
 U 1 1 59E8EB86
 P 8250 3100
 F 0 "D_=1" H 8200 3180 50  0000 L CNN
@@ -437,7 +471,7 @@ F 3 "" V 8250 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_=1
+L R_Small R_=1
 U 1 1 59E8EB8C
 P 8375 2850
 F 0 "R_=1" V 8300 2725 50  0000 L CNN
@@ -448,7 +482,7 @@ F 3 "" H 8375 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_DEL1
+L MX-1U K_DEL1
 U 1 1 59E8EB94
 P 8725 2625
 F 0 "K_DEL1" H 8725 2750 60  0000 C CNN
@@ -459,7 +493,7 @@ F 3 "" H 8700 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_DEL1
+L D_Small D_DEL1
 U 1 1 59E8EB9A
 P 8700 3100
 F 0 "D_DEL1" H 8650 3180 50  0000 L CNN
@@ -470,7 +504,7 @@ F 3 "" V 8700 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_DEL1
+L R_Small R_DEL1
 U 1 1 59E8EBA0
 P 8825 2850
 F 0 "R_DEL1" V 8750 2725 50  0000 L CNN
@@ -481,7 +515,7 @@ F 3 "" H 8825 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_BACK1
+L MX-1U K_BACK1
 U 1 1 59E8EBA8
 P 9175 2625
 F 0 "K_BACK1" H 9175 2750 60  0000 C CNN
@@ -492,7 +526,7 @@ F 3 "" H 9150 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_BACK1
+L D_Small D_BACK1
 U 1 1 59E8EBAE
 P 9150 3100
 F 0 "D_BACK1" H 9100 3180 50  0000 L CNN
@@ -503,7 +537,7 @@ F 3 "" V 9150 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_BACK1
+L R_Small R_BACK1
 U 1 1 59E8EBB4
 P 9275 2850
 F 0 "R_BACK1" V 9200 2725 50  0000 L CNN
@@ -514,7 +548,7 @@ F 3 "" H 9275 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1.5U K_TAB1
+L MX-1.5U K_TAB1
 U 1 1 59E90F45
 P 3325 3525
 F 0 "K_TAB1" H 3325 3650 60  0000 C CNN
@@ -525,7 +559,7 @@ F 3 "" H 3300 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_TAB1
+L D_Small D_TAB1
 U 1 1 59E90F4B
 P 3300 4000
 F 0 "D_TAB1" H 3250 4080 50  0000 L CNN
@@ -536,7 +570,7 @@ F 3 "" V 3300 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_TAB1
+L R_Small R_TAB1
 U 1 1 59E90F51
 P 3425 3750
 F 0 "R_TAB1" V 3350 3625 50  0000 L CNN
@@ -547,7 +581,7 @@ F 3 "" H 3425 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_Q1
+L MX-1U K_Q1
 U 1 1 59E90F59
 P 3775 3525
 F 0 "K_Q1" H 3775 3650 60  0000 C CNN
@@ -558,7 +592,7 @@ F 3 "" H 3750 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_Q1
+L D_Small D_Q1
 U 1 1 59E90F5F
 P 3750 4000
 F 0 "D_Q1" H 3700 4080 50  0000 L CNN
@@ -569,7 +603,7 @@ F 3 "" V 3750 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_Q1
+L R_Small R_Q1
 U 1 1 59E90F65
 P 3875 3750
 F 0 "R_Q1" V 3800 3625 50  0000 L CNN
@@ -580,7 +614,7 @@ F 3 "" H 3875 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_W1
+L MX-1U K_W1
 U 1 1 59E90F6D
 P 4225 3525
 F 0 "K_W1" H 4225 3650 60  0000 C CNN
@@ -591,7 +625,7 @@ F 3 "" H 4200 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_W1
+L D_Small D_W1
 U 1 1 59E90F73
 P 4200 4000
 F 0 "D_W1" H 4150 4080 50  0000 L CNN
@@ -602,7 +636,7 @@ F 3 "" V 4200 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_W1
+L R_Small R_W1
 U 1 1 59E90F79
 P 4325 3750
 F 0 "R_W1" V 4250 3625 50  0000 L CNN
@@ -613,7 +647,7 @@ F 3 "" H 4325 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_E1
+L MX-1U K_E1
 U 1 1 59E90F81
 P 4675 3525
 F 0 "K_E1" H 4675 3650 60  0000 C CNN
@@ -624,7 +658,7 @@ F 3 "" H 4650 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_E1
+L D_Small D_E1
 U 1 1 59E90F87
 P 4650 4000
 F 0 "D_E1" H 4600 4080 50  0000 L CNN
@@ -635,7 +669,7 @@ F 3 "" V 4650 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_E1
+L R_Small R_E1
 U 1 1 59E90F8D
 P 4775 3750
 F 0 "R_E1" V 4700 3625 50  0000 L CNN
@@ -646,7 +680,7 @@ F 3 "" H 4775 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_R1
+L MX-1U K_R1
 U 1 1 59E90F95
 P 5125 3525
 F 0 "K_R1" H 5125 3650 60  0000 C CNN
@@ -657,7 +691,7 @@ F 3 "" H 5100 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_R1
+L D_Small D_R1
 U 1 1 59E90F9B
 P 5100 4000
 F 0 "D_R1" H 5050 4080 50  0000 L CNN
@@ -668,7 +702,7 @@ F 3 "" V 5100 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_R1
+L R_Small R_R1
 U 1 1 59E90FA1
 P 5225 3750
 F 0 "R_R1" V 5150 3625 50  0000 L CNN
@@ -679,7 +713,7 @@ F 3 "" H 5225 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_T1
+L MX-1U K_T1
 U 1 1 59E90FA9
 P 5575 3525
 F 0 "K_T1" H 5575 3650 60  0000 C CNN
@@ -690,7 +724,7 @@ F 3 "" H 5550 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_T1
+L D_Small D_T1
 U 1 1 59E90FAF
 P 5550 4000
 F 0 "D_T1" H 5500 4080 50  0000 L CNN
@@ -701,7 +735,7 @@ F 3 "" V 5550 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_T1
+L R_Small R_T1
 U 1 1 59E90FB5
 P 5675 3750
 F 0 "R_T1" V 5600 3625 50  0000 L CNN
@@ -712,7 +746,7 @@ F 3 "" H 5675 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_Y1
+L MX-1U K_Y1
 U 1 1 59E90FBD
 P 6025 3525
 F 0 "K_Y1" H 6025 3650 60  0000 C CNN
@@ -723,7 +757,7 @@ F 3 "" H 6000 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_Y1
+L D_Small D_Y1
 U 1 1 59E90FC3
 P 6000 4000
 F 0 "D_Y1" H 5950 4080 50  0000 L CNN
@@ -734,7 +768,7 @@ F 3 "" V 6000 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_Y1
+L R_Small R_Y1
 U 1 1 59E90FC9
 P 6125 3750
 F 0 "R_Y1" V 6050 3625 50  0000 L CNN
@@ -745,7 +779,7 @@ F 3 "" H 6125 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_U1
+L MX-1U K_U1
 U 1 1 59E90FD1
 P 6475 3525
 F 0 "K_U1" H 6475 3650 60  0000 C CNN
@@ -756,7 +790,7 @@ F 3 "" H 6450 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_U1
+L D_Small D_U1
 U 1 1 59E90FD7
 P 6450 4000
 F 0 "D_U1" H 6400 4080 50  0000 L CNN
@@ -767,7 +801,7 @@ F 3 "" V 6450 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_U1
+L R_Small R_U1
 U 1 1 59E90FDD
 P 6575 3750
 F 0 "R_U1" V 6500 3625 50  0000 L CNN
@@ -778,7 +812,7 @@ F 3 "" H 6575 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_I1
+L MX-1U K_I1
 U 1 1 59E90FE5
 P 6925 3525
 F 0 "K_I1" H 6925 3650 60  0000 C CNN
@@ -789,7 +823,7 @@ F 3 "" H 6900 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_I1
+L D_Small D_I1
 U 1 1 59E90FEB
 P 6900 4000
 F 0 "D_I1" H 6850 4080 50  0000 L CNN
@@ -800,7 +834,7 @@ F 3 "" V 6900 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_I1
+L R_Small R_I1
 U 1 1 59E90FF1
 P 7025 3750
 F 0 "R_I1" V 6950 3625 50  0000 L CNN
@@ -811,7 +845,7 @@ F 3 "" H 7025 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_O1
+L MX-1U K_O1
 U 1 1 59E90FF9
 P 7375 3525
 F 0 "K_O1" H 7375 3650 60  0000 C CNN
@@ -822,7 +856,7 @@ F 3 "" H 7350 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_O1
+L D_Small D_O1
 U 1 1 59E90FFF
 P 7350 4000
 F 0 "D_O1" H 7300 4080 50  0000 L CNN
@@ -833,7 +867,7 @@ F 3 "" V 7350 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_O1
+L R_Small R_O1
 U 1 1 59E91005
 P 7475 3750
 F 0 "R_O1" V 7400 3625 50  0000 L CNN
@@ -844,7 +878,7 @@ F 3 "" H 7475 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_P1
+L MX-1U K_P1
 U 1 1 59E9100D
 P 7825 3525
 F 0 "K_P1" H 7825 3650 60  0000 C CNN
@@ -855,7 +889,7 @@ F 3 "" H 7800 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_P1
+L D_Small D_P1
 U 1 1 59E91013
 P 7800 4000
 F 0 "D_P1" H 7750 4080 50  0000 L CNN
@@ -866,7 +900,7 @@ F 3 "" V 7800 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_P1
+L R_Small R_P1
 U 1 1 59E91019
 P 7925 3750
 F 0 "R_P1" V 7850 3625 50  0000 L CNN
@@ -877,7 +911,7 @@ F 3 "" H 7925 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_[1
+L MX-1U K_[1
 U 1 1 59E91021
 P 8275 3525
 F 0 "K_[1" H 8275 3650 60  0000 C CNN
@@ -888,7 +922,7 @@ F 3 "" H 8250 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_[1
+L D_Small D_[1
 U 1 1 59E91027
 P 8250 4000
 F 0 "D_[1" H 8200 4080 50  0000 L CNN
@@ -899,7 +933,7 @@ F 3 "" V 8250 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_[1
+L R_Small R_[1
 U 1 1 59E9102D
 P 8375 3750
 F 0 "R_[1" V 8300 3625 50  0000 L CNN
@@ -910,7 +944,7 @@ F 3 "" H 8375 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_]1
+L MX-1U K_]1
 U 1 1 59E91035
 P 8725 3525
 F 0 "K_]1" H 8725 3650 60  0000 C CNN
@@ -921,7 +955,7 @@ F 3 "" H 8700 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_]1
+L D_Small D_]1
 U 1 1 59E9103B
 P 8700 4000
 F 0 "D_]1" H 8650 4080 50  0000 L CNN
@@ -932,7 +966,7 @@ F 3 "" V 8700 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_]1
+L R_Small R_]1
 U 1 1 59E91041
 P 8825 3750
 F 0 "R_]1" V 8750 3625 50  0000 L CNN
@@ -943,7 +977,7 @@ F 3 "" H 8825 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1.5U K_\1
+L MX-1.5U K_\1
 U 1 1 59E91049
 P 9175 3525
 F 0 "K_\\1" H 9175 3650 60  0000 C CNN
@@ -954,7 +988,7 @@ F 3 "" H 9150 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_\1
+L D_Small D_\1
 U 1 1 59E9104F
 P 9150 4000
 F 0 "D_\\1" H 9100 4080 50  0000 L CNN
@@ -965,7 +999,7 @@ F 3 "" V 9150 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_\1
+L R_Small R_\1
 U 1 1 59E91055
 P 9275 3750
 F 0 "R_\\1" V 9200 3625 50  0000 L CNN
@@ -976,7 +1010,7 @@ F 3 "" H 9275 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1.75U K_CAPS1
+L MX-1.75U K_CAPS1
 U 1 1 59E9452D
 P 3325 4425
 F 0 "K_CAPS1" H 3325 4550 60  0000 C CNN
@@ -987,7 +1021,7 @@ F 3 "" H 3300 4400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_CAPS1
+L D_Small D_CAPS1
 U 1 1 59E94533
 P 3300 4900
 F 0 "D_CAPS1" H 3250 4980 50  0000 L CNN
@@ -998,7 +1032,7 @@ F 3 "" V 3300 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_CAPS1
+L R_Small R_CAPS1
 U 1 1 59E94539
 P 3425 4650
 F 0 "R_CAPS1" V 3350 4525 50  0000 L CNN
@@ -1009,7 +1043,7 @@ F 3 "" H 3425 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_A1
+L MX-1U K_A1
 U 1 1 59E94541
 P 3775 4425
 F 0 "K_A1" H 3775 4550 60  0000 C CNN
@@ -1020,7 +1054,7 @@ F 3 "" H 3750 4400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_A1
+L D_Small D_A1
 U 1 1 59E94547
 P 3750 4900
 F 0 "D_A1" H 3700 4980 50  0000 L CNN
@@ -1031,7 +1065,7 @@ F 3 "" V 3750 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_A1
+L R_Small R_A1
 U 1 1 59E9454D
 P 3875 4650
 F 0 "R_A1" V 3800 4525 50  0000 L CNN
@@ -1042,7 +1076,7 @@ F 3 "" H 3875 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_S1
+L MX-1U K_S1
 U 1 1 59E94555
 P 4225 4425
 F 0 "K_S1" H 4225 4550 60  0000 C CNN
@@ -1053,7 +1087,7 @@ F 3 "" H 4200 4400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_S1
+L D_Small D_S1
 U 1 1 59E9455B
 P 4200 4900
 F 0 "D_S1" H 4150 4980 50  0000 L CNN
@@ -1064,7 +1098,7 @@ F 3 "" V 4200 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_S1
+L R_Small R_S1
 U 1 1 59E94561
 P 4325 4650
 F 0 "R_S1" V 4250 4525 50  0000 L CNN
@@ -1075,7 +1109,7 @@ F 3 "" H 4325 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_D1
+L MX-1U K_D1
 U 1 1 59E94569
 P 4675 4425
 F 0 "K_D1" H 4675 4550 60  0000 C CNN
@@ -1086,7 +1120,7 @@ F 3 "" H 4650 4400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_D1
+L D_Small D_D1
 U 1 1 59E9456F
 P 4650 4900
 F 0 "D_D1" H 4600 4980 50  0000 L CNN
@@ -1097,7 +1131,7 @@ F 3 "" V 4650 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_D1
+L R_Small R_D1
 U 1 1 59E94575
 P 4775 4650
 F 0 "R_D1" V 4700 4525 50  0000 L CNN
@@ -1108,7 +1142,7 @@ F 3 "" H 4775 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_F1
+L MX-1U K_F1
 U 1 1 59E9457D
 P 5125 4425
 F 0 "K_F1" H 5125 4550 60  0000 C CNN
@@ -1119,7 +1153,7 @@ F 3 "" H 5100 4400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_F1
+L D_Small D_F1
 U 1 1 59E94583
 P 5100 4900
 F 0 "D_F1" H 5050 4980 50  0000 L CNN
@@ -1130,7 +1164,7 @@ F 3 "" V 5100 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_F1
+L R_Small R_F1
 U 1 1 59E94589
 P 5225 4650
 F 0 "R_F1" V 5150 4525 50  0000 L CNN
@@ -1141,7 +1175,7 @@ F 3 "" H 5225 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_G1
+L MX-1U K_G1
 U 1 1 59E94591
 P 5575 4425
 F 0 "K_G1" H 5575 4550 60  0000 C CNN
@@ -1152,7 +1186,7 @@ F 3 "" H 5550 4400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_G1
+L D_Small D_G1
 U 1 1 59E94597
 P 5550 4900
 F 0 "D_G1" H 5500 4980 50  0000 L CNN
@@ -1163,7 +1197,7 @@ F 3 "" V 5550 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_G1
+L R_Small R_G1
 U 1 1 59E9459D
 P 5675 4650
 F 0 "R_G1" V 5600 4525 50  0000 L CNN
@@ -1174,7 +1208,7 @@ F 3 "" H 5675 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_H1
+L MX-1U K_H1
 U 1 1 59E945A5
 P 6025 4425
 F 0 "K_H1" H 6025 4550 60  0000 C CNN
@@ -1185,7 +1219,7 @@ F 3 "" H 6000 4400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_H1
+L D_Small D_H1
 U 1 1 59E945AB
 P 6000 4900
 F 0 "D_H1" H 5950 4980 50  0000 L CNN
@@ -1196,7 +1230,7 @@ F 3 "" V 6000 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_H1
+L R_Small R_H1
 U 1 1 59E945B1
 P 6125 4650
 F 0 "R_H1" V 6050 4525 50  0000 L CNN
@@ -1207,7 +1241,7 @@ F 3 "" H 6125 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_J1
+L MX-1U K_J1
 U 1 1 59E945B9
 P 6475 4425
 F 0 "K_J1" H 6475 4550 60  0000 C CNN
@@ -1218,7 +1252,7 @@ F 3 "" H 6450 4400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_J1
+L D_Small D_J1
 U 1 1 59E945BF
 P 6450 4900
 F 0 "D_J1" H 6400 4980 50  0000 L CNN
@@ -1229,7 +1263,7 @@ F 3 "" V 6450 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_J1
+L R_Small R_J1
 U 1 1 59E945C5
 P 6575 4650
 F 0 "R_J1" V 6500 4525 50  0000 L CNN
@@ -1240,7 +1274,7 @@ F 3 "" H 6575 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_K1
+L MX-1U K_K1
 U 1 1 59E945CD
 P 6925 4425
 F 0 "K_K1" H 6925 4550 60  0000 C CNN
@@ -1251,7 +1285,7 @@ F 3 "" H 6900 4400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_K1
+L D_Small D_K1
 U 1 1 59E945D3
 P 6900 4900
 F 0 "D_K1" H 6850 4980 50  0000 L CNN
@@ -1262,7 +1296,7 @@ F 3 "" V 6900 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_K1
+L R_Small R_K1
 U 1 1 59E945D9
 P 7025 4650
 F 0 "R_K1" V 6950 4525 50  0000 L CNN
@@ -1273,7 +1307,7 @@ F 3 "" H 7025 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_L1
+L MX-1U K_L1
 U 1 1 59E945E1
 P 7375 4425
 F 0 "K_L1" H 7375 4550 60  0000 C CNN
@@ -1284,7 +1318,7 @@ F 3 "" H 7350 4400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_L1
+L D_Small D_L1
 U 1 1 59E945E7
 P 7350 4900
 F 0 "D_L1" H 7300 4980 50  0000 L CNN
@@ -1295,7 +1329,7 @@ F 3 "" V 7350 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_L1
+L R_Small R_L1
 U 1 1 59E945ED
 P 7475 4650
 F 0 "R_L1" V 7400 4525 50  0000 L CNN
@@ -1306,7 +1340,7 @@ F 3 "" H 7475 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_;1
+L MX-1U K_;1
 U 1 1 59E945F5
 P 7825 4425
 F 0 "K_;1" H 7825 4550 60  0000 C CNN
@@ -1317,7 +1351,7 @@ F 3 "" H 7800 4400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_;1
+L D_Small D_;1
 U 1 1 59E945FB
 P 7800 4900
 F 0 "D_;1" H 7750 4980 50  0000 L CNN
@@ -1328,7 +1362,7 @@ F 3 "" V 7800 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_;1
+L R_Small R_;1
 U 1 1 59E94601
 P 7925 4650
 F 0 "R_;1" V 7850 4525 50  0000 L CNN
@@ -1339,7 +1373,7 @@ F 3 "" H 7925 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_'1
+L MX-1U K_'1
 U 1 1 59E94609
 P 8275 4425
 F 0 "K_'1" H 8275 4550 60  0000 C CNN
@@ -1350,7 +1384,7 @@ F 3 "" H 8250 4400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_'1
+L D_Small D_'1
 U 1 1 59E9460F
 P 8250 4900
 F 0 "D_'1" H 8200 4980 50  0000 L CNN
@@ -1361,7 +1395,7 @@ F 3 "" V 8250 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_'1
+L R_Small R_'1
 U 1 1 59E94615
 P 8375 4650
 F 0 "R_'1" V 8300 4525 50  0000 L CNN
@@ -1372,7 +1406,7 @@ F 3 "" H 8375 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_ISO`1
+L MX-1U K_ISO`1
 U 1 1 59E9461D
 P 8725 4425
 F 0 "K_ISO`1" H 8725 4550 60  0000 C CNN
@@ -1383,7 +1417,7 @@ F 3 "" H 8700 4400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_ISO`1
+L D_Small D_ISO`1
 U 1 1 59E94623
 P 8700 4900
 F 0 "D_ISO`1" H 8650 4980 50  0000 L CNN
@@ -1394,7 +1428,7 @@ F 3 "" V 8700 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_ISO`1
+L R_Small R_ISO`1
 U 1 1 59E94629
 P 8825 4650
 F 0 "R_ISO`1" V 8750 4525 50  0000 L CNN
@@ -1405,7 +1439,7 @@ F 3 "" H 8825 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-2.25U K_ENTER1
+L MX-2.25U K_ENTER1
 U 1 1 59E94631
 P 9175 4425
 F 0 "K_ENTER1" H 9175 4550 60  0000 C CNN
@@ -1416,7 +1450,7 @@ F 3 "" H 9150 4400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_ENTER1
+L D_Small D_ENTER1
 U 1 1 59E94637
 P 9150 4900
 F 0 "D_ENTER1" H 9100 4980 50  0000 L CNN
@@ -1427,7 +1461,7 @@ F 3 "" V 9150 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_ENTER1
+L R_Small R_ENTER1
 U 1 1 59E9463D
 P 9275 4650
 F 0 "R_ENTER1" V 9200 4525 50  0000 L CNN
@@ -1438,7 +1472,7 @@ F 3 "" H 9275 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-2.25U K_SHIFT1
+L MX-2.25U K_SHIFT1
 U 1 1 59E94645
 P 2875 5325
 F 0 "K_SHIFT1" H 2875 5450 60  0000 C CNN
@@ -1449,7 +1483,7 @@ F 3 "" H 2850 5300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_SHIFT1
+L D_Small D_SHIFT1
 U 1 1 59E9464B
 P 2850 5800
 F 0 "D_SHIFT1" H 2800 5880 50  0000 L CNN
@@ -1460,7 +1494,7 @@ F 3 "" V 2850 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_SHIFT1
+L R_Small R_SHIFT1
 U 1 1 59E94651
 P 2975 5550
 F 0 "R_SHIFT1" V 2900 5425 50  0000 L CNN
@@ -1471,7 +1505,7 @@ F 3 "" H 2975 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_ISO\1
+L MX-1U K_ISO\1
 U 1 1 59E94659
 P 3325 5325
 F 0 "K_ISO\\1" H 3325 5450 60  0000 C CNN
@@ -1482,7 +1516,7 @@ F 3 "" H 3300 5300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_ISO\1
+L D_Small D_ISO\1
 U 1 1 59E9465F
 P 3300 5800
 F 0 "D_ISO\\1" H 3250 5880 50  0000 L CNN
@@ -1493,7 +1527,7 @@ F 3 "" V 3300 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_ISO\1
+L R_Small R_ISO\1
 U 1 1 59E94665
 P 3425 5550
 F 0 "R_ISO\\1" V 3350 5425 50  0000 L CNN
@@ -1504,7 +1538,7 @@ F 3 "" H 3425 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_Z1
+L MX-1U K_Z1
 U 1 1 59E9466D
 P 3775 5325
 F 0 "K_Z1" H 3775 5450 60  0000 C CNN
@@ -1515,7 +1549,7 @@ F 3 "" H 3750 5300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_Z1
+L D_Small D_Z1
 U 1 1 59E94673
 P 3750 5800
 F 0 "D_Z1" H 3700 5880 50  0000 L CNN
@@ -1526,7 +1560,7 @@ F 3 "" V 3750 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_Z1
+L R_Small R_Z1
 U 1 1 59E94679
 P 3875 5550
 F 0 "R_Z1" V 3800 5425 50  0000 L CNN
@@ -1537,7 +1571,7 @@ F 3 "" H 3875 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_X1
+L MX-1U K_X1
 U 1 1 59E94681
 P 4225 5325
 F 0 "K_X1" H 4225 5450 60  0000 C CNN
@@ -1548,7 +1582,7 @@ F 3 "" H 4200 5300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_X1
+L D_Small D_X1
 U 1 1 59E94687
 P 4200 5800
 F 0 "D_X1" H 4150 5880 50  0000 L CNN
@@ -1559,7 +1593,7 @@ F 3 "" V 4200 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_X1
+L R_Small R_X1
 U 1 1 59E9468D
 P 4325 5550
 F 0 "R_X1" V 4250 5425 50  0000 L CNN
@@ -1570,7 +1604,7 @@ F 3 "" H 4325 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_C1
+L MX-1U K_C1
 U 1 1 59E94695
 P 4675 5325
 F 0 "K_C1" H 4675 5450 60  0000 C CNN
@@ -1581,7 +1615,7 @@ F 3 "" H 4650 5300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_C1
+L D_Small D_C1
 U 1 1 59E9469B
 P 4650 5800
 F 0 "D_C1" H 4600 5880 50  0000 L CNN
@@ -1592,7 +1626,7 @@ F 3 "" V 4650 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_C1
+L R_Small R_C1
 U 1 1 59E946A1
 P 4775 5550
 F 0 "R_C1" V 4700 5425 50  0000 L CNN
@@ -1603,7 +1637,7 @@ F 3 "" H 4775 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_V1
+L MX-1U K_V1
 U 1 1 59E946A9
 P 5125 5325
 F 0 "K_V1" H 5125 5450 60  0000 C CNN
@@ -1614,7 +1648,7 @@ F 3 "" H 5100 5300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_V1
+L D_Small D_V1
 U 1 1 59E946AF
 P 5100 5800
 F 0 "D_V1" H 5050 5880 50  0000 L CNN
@@ -1625,7 +1659,7 @@ F 3 "" V 5100 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_V1
+L R_Small R_V1
 U 1 1 59E946B5
 P 5225 5550
 F 0 "R_V1" V 5150 5425 50  0000 L CNN
@@ -1636,7 +1670,7 @@ F 3 "" H 5225 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_B1
+L MX-1U K_B1
 U 1 1 59E946BD
 P 5575 5325
 F 0 "K_B1" H 5575 5450 60  0000 C CNN
@@ -1647,7 +1681,7 @@ F 3 "" H 5550 5300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_B1
+L D_Small D_B1
 U 1 1 59E946C3
 P 5550 5800
 F 0 "D_B1" H 5500 5880 50  0000 L CNN
@@ -1658,7 +1692,7 @@ F 3 "" V 5550 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_B1
+L R_Small R_B1
 U 1 1 59E946C9
 P 5675 5550
 F 0 "R_B1" V 5600 5425 50  0000 L CNN
@@ -1669,7 +1703,7 @@ F 3 "" H 5675 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_N1
+L MX-1U K_N1
 U 1 1 59E946D1
 P 6025 5325
 F 0 "K_N1" H 6025 5450 60  0000 C CNN
@@ -1680,7 +1714,7 @@ F 3 "" H 6000 5300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_N1
+L D_Small D_N1
 U 1 1 59E946D7
 P 6000 5800
 F 0 "D_N1" H 5950 5880 50  0000 L CNN
@@ -1691,7 +1725,7 @@ F 3 "" V 6000 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_N1
+L R_Small R_N1
 U 1 1 59E946DD
 P 6125 5550
 F 0 "R_N1" V 6050 5425 50  0000 L CNN
@@ -1702,7 +1736,7 @@ F 3 "" H 6125 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_M1
+L MX-1U K_M1
 U 1 1 59E946E5
 P 6475 5325
 F 0 "K_M1" H 6475 5450 60  0000 C CNN
@@ -1713,7 +1747,7 @@ F 3 "" H 6450 5300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_M1
+L D_Small D_M1
 U 1 1 59E946EB
 P 6450 5800
 F 0 "D_M1" H 6400 5880 50  0000 L CNN
@@ -1724,7 +1758,7 @@ F 3 "" V 6450 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_M1
+L R_Small R_M1
 U 1 1 59E946F1
 P 6575 5550
 F 0 "R_M1" V 6500 5425 50  0000 L CNN
@@ -1735,7 +1769,7 @@ F 3 "" H 6575 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_,1
+L MX-1U K_,1
 U 1 1 59E946F9
 P 6925 5325
 F 0 "K_,1" H 6925 5450 60  0000 C CNN
@@ -1746,7 +1780,7 @@ F 3 "" H 6900 5300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_,1
+L D_Small D_,1
 U 1 1 59E946FF
 P 6900 5800
 F 0 "D_,1" H 6850 5880 50  0000 L CNN
@@ -1757,7 +1791,7 @@ F 3 "" V 6900 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_,1
+L R_Small R_,1
 U 1 1 59E94705
 P 7025 5550
 F 0 "R_,1" V 6950 5425 50  0000 L CNN
@@ -1768,7 +1802,7 @@ F 3 "" H 7025 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_.1
+L MX-1U K_.1
 U 1 1 59E9470D
 P 7375 5325
 F 0 "K_.1" H 7375 5450 60  0000 C CNN
@@ -1779,7 +1813,7 @@ F 3 "" H 7350 5300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_.1
+L D_Small D_.1
 U 1 1 59E94713
 P 7350 5800
 F 0 "D_.1" H 7300 5880 50  0000 L CNN
@@ -1790,7 +1824,7 @@ F 3 "" V 7350 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_.1
+L R_Small R_.1
 U 1 1 59E94719
 P 7475 5550
 F 0 "R_.1" V 7400 5425 50  0000 L CNN
@@ -1801,7 +1835,7 @@ F 3 "" H 7475 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1.75U K_/1
+L MX-1.75U K_/1
 U 1 1 59E94721
 P 7825 5325
 F 0 "K_/1" H 7825 5450 60  0000 C CNN
@@ -1812,7 +1846,7 @@ F 3 "" H 7800 5300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_/1
+L D_Small D_/1
 U 1 1 59E94727
 P 7800 5800
 F 0 "D_/1" H 7750 5880 50  0000 L CNN
@@ -1823,7 +1857,7 @@ F 3 "" V 7800 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_/1
+L R_Small R_/1
 U 1 1 59E9472D
 P 7925 5550
 F 0 "R_/1" V 7850 5425 50  0000 L CNN
@@ -1834,7 +1868,7 @@ F 3 "" H 7925 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_UP1
+L MX-1U K_UP1
 U 1 1 59E94749
 P 8725 5325
 F 0 "K_UP1" H 8725 5450 60  0000 C CNN
@@ -1845,7 +1879,7 @@ F 3 "" H 8700 5300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_UP1
+L D_Small D_UP1
 U 1 1 59E9474F
 P 8700 5800
 F 0 "D_UP1" H 8650 5880 50  0000 L CNN
@@ -1856,7 +1890,7 @@ F 3 "" V 8700 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_UP1
+L R_Small R_UP1
 U 1 1 59E94755
 P 8825 5550
 F 0 "R_UP1" V 8750 5425 50  0000 L CNN
@@ -1867,7 +1901,7 @@ F 3 "" H 8825 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_RSHIFT1
+L MX-1U K_RSHIFT1
 U 1 1 59E9475D
 P 9175 5325
 F 0 "K_RSHIFT1" H 9175 5450 60  0000 C CNN
@@ -1878,7 +1912,7 @@ F 3 "" H 9150 5300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_RSHIFT1
+L D_Small D_RSHIFT1
 U 1 1 59E94763
 P 9150 5800
 F 0 "D_RSHIFT1" H 9100 5880 50  0000 L CNN
@@ -1889,7 +1923,7 @@ F 3 "" V 9150 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_RSHIFT1
+L R_Small R_RSHIFT1
 U 1 1 59E94769
 P 9275 5550
 F 0 "R_RSHIFT1" V 9200 5425 50  0000 L CNN
@@ -1900,7 +1934,7 @@ F 3 "" H 9275 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1.25U K_CTRL1
+L MX-1.25U K_CTRL1
 U 1 1 59E9ABA4
 P 2875 6225
 F 0 "K_CTRL1" H 2875 6350 60  0000 C CNN
@@ -1911,7 +1945,7 @@ F 3 "" H 2850 6200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_CTRL1
+L D_Small D_CTRL1
 U 1 1 59E9ABAA
 P 2850 6700
 F 0 "D_CTRL1" H 2800 6780 50  0000 L CNN
@@ -1922,7 +1956,7 @@ F 3 "" V 2850 6700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_CTRL1
+L R_Small R_CTRL1
 U 1 1 59E9ABB0
 P 2975 6450
 F 0 "R_CTRL1" V 2900 6325 50  0000 L CNN
@@ -1933,7 +1967,7 @@ F 3 "" H 2975 6450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1.25U K_WIN1
+L MX-1.25U K_WIN1
 U 1 1 59E9ABB8
 P 3325 6225
 F 0 "K_WIN1" H 3325 6350 60  0000 C CNN
@@ -1944,7 +1978,7 @@ F 3 "" H 3300 6200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_WIN1
+L D_Small D_WIN1
 U 1 1 59E9ABBE
 P 3300 6700
 F 0 "D_WIN1" H 3250 6780 50  0000 L CNN
@@ -1955,7 +1989,7 @@ F 3 "" V 3300 6700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_WIN1
+L R_Small R_WIN1
 U 1 1 59E9ABC4
 P 3425 6450
 F 0 "R_WIN1" V 3350 6325 50  0000 L CNN
@@ -1966,7 +2000,7 @@ F 3 "" H 3425 6450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1.25U K_ALT1
+L MX-1.25U K_ALT1
 U 1 1 59E9ABCC
 P 3775 6225
 F 0 "K_ALT1" H 3775 6350 60  0000 C CNN
@@ -1977,7 +2011,7 @@ F 3 "" H 3750 6200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_ALT1
+L D_Small D_ALT1
 U 1 1 59E9ABD2
 P 3750 6700
 F 0 "D_ALT1" H 3700 6780 50  0000 L CNN
@@ -1988,7 +2022,7 @@ F 3 "" V 3750 6700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_ALT1
+L R_Small R_ALT1
 U 1 1 59E9ABD8
 P 3875 6450
 F 0 "R_ALT1" V 3800 6325 50  0000 L CNN
@@ -1999,7 +2033,7 @@ F 3 "" H 3875 6450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-6.25U-FLIPPED K_SPACE1
+L MX-6.25U-FLIPPED K_SPACE1
 U 1 1 59E9AC1C
 P 5575 6225
 F 0 "K_SPACE1" H 5575 6350 60  0000 C CNN
@@ -2010,7 +2044,7 @@ F 3 "" H 5550 6200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_SPACE1
+L D_Small D_SPACE1
 U 1 1 59E9AC22
 P 5550 6700
 F 0 "D_SPACE1" H 5500 6780 50  0000 L CNN
@@ -2021,7 +2055,7 @@ F 3 "" V 5550 6700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_SPACE1
+L R_Small R_SPACE1
 U 1 1 59E9AC28
 P 5675 6450
 F 0 "R_SPACE1" V 5600 6325 50  0000 L CNN
@@ -2032,7 +2066,7 @@ F 3 "" H 5675 6450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_FN1
+L MX-1U K_FN1
 U 1 1 59E9AC6C
 P 7375 6225
 F 0 "K_FN1" H 7375 6350 60  0000 C CNN
@@ -2043,7 +2077,7 @@ F 3 "" H 7350 6200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_FN1
+L D_Small D_FN1
 U 1 1 59E9AC72
 P 7350 6700
 F 0 "D_FN1" H 7300 6780 50  0000 L CNN
@@ -2054,7 +2088,7 @@ F 3 "" V 7350 6700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_FN1
+L R_Small R_FN1
 U 1 1 59E9AC78
 P 7475 6450
 F 0 "R_FN1" V 7400 6325 50  0000 L CNN
@@ -2065,7 +2099,7 @@ F 3 "" H 7475 6450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_`1
+L MX-1U K_`1
 U 1 1 59E9AC80
 P 7825 6225
 F 0 "K_`1" H 7825 6350 60  0000 C CNN
@@ -2076,7 +2110,7 @@ F 3 "" H 7800 6200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_`1
+L D_Small D_`1
 U 1 1 59E9AC86
 P 7800 6700
 F 0 "D_`1" H 7750 6780 50  0000 L CNN
@@ -2087,7 +2121,7 @@ F 3 "" V 7800 6700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_`1
+L R_Small R_`1
 U 1 1 59E9AC8C
 P 7925 6450
 F 0 "R_`1" V 7850 6325 50  0000 L CNN
@@ -2098,7 +2132,7 @@ F 3 "" H 7925 6450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_LEFT1
+L MX-1U K_LEFT1
 U 1 1 59E9AC94
 P 8275 6225
 F 0 "K_LEFT1" H 8275 6350 60  0000 C CNN
@@ -2109,7 +2143,7 @@ F 3 "" H 8250 6200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_LEFT1
+L D_Small D_LEFT1
 U 1 1 59E9AC9A
 P 8250 6700
 F 0 "D_LEFT1" H 8200 6780 50  0000 L CNN
@@ -2120,7 +2154,7 @@ F 3 "" V 8250 6700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_LEFT1
+L R_Small R_LEFT1
 U 1 1 59E9ACA0
 P 8375 6450
 F 0 "R_LEFT1" V 8300 6325 50  0000 L CNN
@@ -2131,7 +2165,7 @@ F 3 "" H 8375 6450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_DOWN1
+L MX-1U K_DOWN1
 U 1 1 59E9ACA8
 P 8725 6225
 F 0 "K_DOWN1" H 8725 6350 60  0000 C CNN
@@ -2142,7 +2176,7 @@ F 3 "" H 8700 6200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_DOWN1
+L D_Small D_DOWN1
 U 1 1 59E9ACAE
 P 8700 6700
 F 0 "D_DOWN1" H 8650 6780 50  0000 L CNN
@@ -2153,7 +2187,7 @@ F 3 "" V 8700 6700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_DOWN1
+L R_Small R_DOWN1
 U 1 1 59E9ACB4
 P 8825 6450
 F 0 "R_DOWN1" V 8750 6325 50  0000 L CNN
@@ -2164,7 +2198,7 @@ F 3 "" H 8825 6450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_RIGHT1
+L MX-1U K_RIGHT1
 U 1 1 59E9ACBC
 P 9175 6225
 F 0 "K_RIGHT1" H 9175 6350 60  0000 C CNN
@@ -2175,7 +2209,7 @@ F 3 "" H 9150 6200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_RIGHT1
+L D_Small D_RIGHT1
 U 1 1 59E9ACC2
 P 9150 6700
 F 0 "D_RIGHT1" H 9100 6780 50  0000 L CNN
@@ -2186,7 +2220,7 @@ F 3 "" V 9150 6700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R_RIGHT1
+L R_Small R_RIGHT1
 U 1 1 59E9ACC8
 P 9275 6450
 F 0 "R_RIGHT1" V 9200 6325 50  0000 L CNN
@@ -2197,7 +2231,7 @@ F 3 "" H 9275 6450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-ISO K_ISOENTER1
+L MX-ISO K_ISOENTER1
 U 1 1 59EB378F
 P 9625 4425
 F 0 "K_ISOENTER1" H 9775 4550 60  0000 C CNN
@@ -2208,7 +2242,7 @@ F 3 "" H 9600 4400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-2U K_BACK2
+L MX-2U K_BACK2
 U 1 1 59EC1907
 P 9625 2625
 F 0 "K_BACK2" H 9700 2750 60  0000 C CNN
@@ -2219,7 +2253,7 @@ F 3 "" H 9600 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U K_/2
+L MX-1U K_/2
 U 1 1 59ED3DBB
 P 8275 5325
 F 0 "K_/2" H 8275 5450 60  0000 C CNN
@@ -2230,7 +2264,7 @@ F 3 "" H 8250 5300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-2.75U-FLIPPED K_RSHIFT2
+L MX-2.75U-FLIPPED K_RSHIFT2
 U 1 1 59ED76B9
 P 9625 5325
 F 0 "K_RSHIFT2" H 9725 5450 60  0000 C CNN
@@ -2241,7 +2275,7 @@ F 3 "" H 9600 5300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1.5U-FLIPPED K_CTRL2
+L MX-1.5U-FLIPPED K_CTRL2
 U 1 1 59F0B73B
 P 2875 7125
 F 0 "K_CTRL2" H 2875 7250 60  0000 C CNN
@@ -2252,7 +2286,7 @@ F 3 "" H 2850 7100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1.25U-FLIPPED K_ALT2
+L MX-1.25U-FLIPPED K_ALT2
 U 1 1 59F0B74F
 P 3325 7125
 F 0 "K_ALT2" H 3325 7250 60  0000 C CNN
@@ -2263,7 +2297,7 @@ F 3 "" H 3300 7100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1.5U K_CMD1
+L MX-1.5U K_CMD1
 U 1 1 59F0B763
 P 3775 7125
 F 0 "K_CMD1" H 3775 7250 60  0000 C CNN
@@ -2274,7 +2308,7 @@ F 3 "" H 3750 7100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-6.5U K_SPACE2
+L MX-6.5U K_SPACE2
 U 1 1 59F0B777
 P 5575 7125
 F 0 "K_SPACE2" H 5575 7250 60  0000 C CNN
@@ -2285,7 +2319,7 @@ F 3 "" H 5550 7100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1.5U-FLIPPED K_RCTRL2
+L MX-1.5U-FLIPPED K_RCTRL2
 U 1 1 59F16AE1
 P 9175 7125
 F 0 "K_RCTRL2" H 9175 7250 60  0000 C CNN
@@ -2296,7 +2330,7 @@ F 3 "" H 9150 7100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1.25U K_RALT1
+L MX-1.25U K_RALT1
 U 1 1 59F1A49B
 P 8275 7125
 F 0 "K_RALT1" H 8275 7250 60  0000 C CNN
@@ -2307,7 +2341,7 @@ F 3 "" H 8250 7100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR025
+L +5V #PWR025
 U 1 1 59F09083
 P 2975 2350
 F 0 "#PWR025" H 2975 2200 50  0001 C CNN
@@ -2354,7 +2388,7 @@ ROW8
 Text GLabel 2525 6975 0    60   Input ~ 0
 ROW9
 $Comp
-L MX_Alps_Hybrids:MX-1.25U K_SHIFT2
+L MX-1.25U K_SHIFT2
 U 1 1 59E8A45D
 P 2375 5325
 F 0 "K_SHIFT2" H 2375 5450 60  0000 C CNN
@@ -2365,7 +2399,7 @@ F 3 "" H 2350 5300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1.25U-FLIPPED K_CAPS2
+L MX-1.25U-FLIPPED K_CAPS2
 U 1 1 59E9604B
 P 2800 4425
 F 0 "K_CAPS2" H 2800 4550 60  0000 C CNN
