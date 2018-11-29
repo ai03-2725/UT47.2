@@ -1,0 +1,53 @@
+### Module positions - created on 11/28/18 21:20:17 ###
+### Printed by Pcbnew version kicad (5.0.0)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                                     PosX       PosY       Rot  Side
+MX1       MX-1U     MXOnly-1U-Hotswap                        41.2750   -41.2750    0.0000  top
+MX2       MX-1U     MXOnly-1U-Hotswap                        60.3250   -41.2750    0.0000  top
+MX3       MX-1U     MXOnly-1U-Hotswap                        79.3750   -41.2750    0.0000  top
+MX4       MX-1U     MXOnly-1U-Hotswap                        98.4250   -41.2750    0.0000  top
+MX5       MX-1U     MXOnly-1U-Hotswap                       117.4750   -41.2750    0.0000  top
+MX6       MX-1U     MXOnly-1U-Hotswap                       136.5250   -41.2750    0.0000  top
+MX7       MX-1U     MXOnly-1U-Hotswap                       155.5750   -41.2750    0.0000  top
+MX8       MX-1U     MXOnly-1U-Hotswap                       174.6250   -41.2750    0.0000  top
+MX9       MX-1U     MXOnly-1U-Hotswap                       193.6750   -41.2750    0.0000  top
+MX10      MX-1U     MXOnly-1U-Hotswap                       212.7250   -41.2750    0.0000  top
+MX11      MX-1U     MXOnly-1U-Hotswap                       231.7750   -41.2750    0.0000  top
+MX12      MX-1.5U   MXOnly-1.5U-Hotswap                     255.5875   -41.2750  180.0000  top
+MX13      MX-1.25U  MXOnly-1.25U-Hotswap                     43.6562   -60.3250    0.0000  top
+MX14      MX-1U     MXOnly-1U-Hotswap                        65.0875   -60.3250    0.0000  top
+MX15      MX-1U     MXOnly-1U-Hotswap                        84.1375   -60.3250    0.0000  top
+MX16      MX-1U     MXOnly-1U-Hotswap                       103.1875   -60.3250    0.0000  top
+MX17      MX-1U     MXOnly-1U-Hotswap                       122.2375   -60.3250    0.0000  top
+MX18      MX-1U     MXOnly-1U-Hotswap                       141.2875   -60.3250    0.0000  top
+MX19      MX-1U     MXOnly-1U-Hotswap                       160.3375   -60.3250    0.0000  top
+MX20      MX-1U     MXOnly-1U-Hotswap                       179.3875   -60.3250    0.0000  top
+MX21      MX-1U     MXOnly-1U-Hotswap                       198.4375   -60.3250    0.0000  top
+MX22      MX-1U     MXOnly-1U-Hotswap                       217.4875   -60.3250    0.0000  top
+MX23      MX-1U     MXOnly-1U-Hotswap                       236.5375   -60.3250    0.0000  top
+MX24      MX-1.25U  MXOnly-1.25U-Hotswap                    257.9688   -60.3250    0.0000  top
+MX25      MX-1.5U   MXOnly-1.5U-Hotswap                      46.0375   -79.3750    0.0000  top
+MX26      MX-1U     MXOnly-1U-Hotswap                        69.8500   -79.3750    0.0000  top
+MX27      MX-1U     MXOnly-1U-Hotswap                        88.9000   -79.3750    0.0000  top
+MX28      MX-1U     MXOnly-1U-Hotswap                       107.9500   -79.3750    0.0000  top
+MX29      MX-1U     MXOnly-1U-Hotswap                       127.0000   -79.3750    0.0000  top
+MX30      MX-1U     MXOnly-1U-Hotswap                       146.0500   -79.3750    0.0000  top
+MX31      MX-1U     MXOnly-1U-Hotswap                       165.1000   -79.3750    0.0000  top
+MX32      MX-1U     MXOnly-1U-Hotswap                       184.1500   -79.3750    0.0000  top
+MX33      MX-1U     MXOnly-1U-Hotswap                       203.2000   -79.3750    0.0000  top
+MX34      MX-1U     MXOnly-1U-Hotswap                       222.2500   -79.3750    0.0000  top
+MX35      MX-1U     MXOnly-1U-Hotswap                       241.3000   -79.3750    0.0000  top
+MX36      MX-1U     MXOnly-1U-Hotswap                       260.3500   -79.3750    0.0000  top
+MX37      MX-1U     MXOnly-1U-Hotswap                        41.2750   -98.4250    0.0000  top
+MX38      MX-1U     MXOnly-1U-Hotswap                        60.3250   -98.4250    0.0000  top
+MX39      MX-1U     MXOnly-1U-Hotswap                        79.3750   -98.4250    0.0000  top
+MX40      MX-1U     MXOnly-1U-Hotswap                        98.4250   -98.4250    0.0000  top
+MX41      MX-1.25U  MXOnly-1.25U-Hotswap                    119.8562   -98.4250    0.0000  top
+MX42      MX-2U     MXOnly-2U-Hotswap-ReversedStabilizers   150.8125   -98.4250    0.0000  top
+MX43      MX-1.25U  MXOnly-1.25U-Hotswap                    181.7687   -98.4250    0.0000  top
+MX44      MX-1U     MXOnly-1U-Hotswap                       203.2000   -98.4250    0.0000  top
+MX45      MX-1U     MXOnly-1U-Hotswap                       222.2500   -98.4250    0.0000  top
+MX46      MX-1U     MXOnly-1U-Hotswap                       241.3000   -98.4250    0.0000  top
+MX47      MX-1U     MXOnly-1U-Hotswap                       260.3500   -98.4250    0.0000  top
+## End
