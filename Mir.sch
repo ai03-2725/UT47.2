@@ -1063,4 +1063,6 @@ Text GLabel 4250 3000 2    50   Input ~ 0
 ROW1
 Text GLabel 4250 2900 2    50   Input ~ 0
 ROW0
+Text GLabel 4250 4000 2    50   Input ~ 0
+RGBLED
 $EndSCHEMATC
