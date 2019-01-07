@@ -1,0 +1,41 @@
+(export (version D)
+  (design
+    (source "C:\\Users\\Ryota\\Documents\\GitHub\\Mir\\Case Files\\Bottom\\UT47.2-Bottom.sch")
+    (date "1/6/2019 2:24:23 PM")
+    (tool "Eeschema (5.0.0)")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source UT47.2-Bottom.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref J1)
+      (value Outline)
+      (footprint locallib:Outline)
+      (datasheet ~)
+      (libsource (lib Connector_Generic) (part Conn_01x01) (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5C328049)))
+  (libparts
+    (libpart (lib Connector_Generic) (part Conn_01x01)
+      (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+      (docs ~)
+      (footprints
+        (fp Connector*:*))
+      (fields
+        (field (name Reference) J)
+        (field (name Value) Conn_01x01))
+      (pins
+        (pin (num 1) (name Pin_1) (type passive)))))
+  (libraries
+    (library (logical Connector_Generic)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector_Generic.lib")))
+  (nets
+    (net (code 1) (name GND)
+      (node (ref J1) (pin 1)))))
