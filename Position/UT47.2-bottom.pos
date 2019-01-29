@@ -1,4 +1,4 @@
-### Module positions - created on 11/28/18 21:20:17 ###
+### Module positions - created on 01/28/19 22:54:56 ###
 ### Printed by Pcbnew version kicad (5.0.0)
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -52,7 +52,7 @@ D32       SOD-123             D_SOD-123                        -192.0875   -79.3
 D33       SOD-123             D_SOD-123                        -211.1375   -79.3750   90.0000  bottom
 D34       SOD-123             D_SOD-123                        -230.1875   -79.3750   90.0000  bottom
 D35       SOD-123             D_SOD-123                        -249.2375   -79.3750   90.0000  bottom
-D36       SOD-123             D_SOD-123                        -260.3500   -84.9312   90.0000  bottom
+D36       SOD-123             D_SOD-123                        -265.9062   -83.3438   90.0000  bottom
 D37       SOD-123             D_SOD-123                         -49.2125   -98.4250   90.0000  bottom
 D38       SOD-123             D_SOD-123                         -68.2625   -98.4250   90.0000  bottom
 D39       SOD-123             D_SOD-123                         -87.3125   -98.4250   90.0000  bottom
